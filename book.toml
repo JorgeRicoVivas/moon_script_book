@@ -1,0 +1,10 @@
+[book]
+authors = ["Jorge Rico Vivas"]
+language = "en"
+multilingual = false
+src = "src"
+title = "MoonScript"
+
+[output.html.playground]
+runnable = false
+editable = false
