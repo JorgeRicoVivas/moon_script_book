@@ -40,9 +40,31 @@ print(modify_me) //Prints Modified!
 print(do_not_modify_me) //Prints I am unmodified
 ```
 
+
+## Input variables
+If you are not the developer of the program that is using MoonScript, you 
+might find the developers used Input Variables, these are variables the 
+developers include into your code without you requiring to use it.
+
+For example, if the context of the program was a car rental, you might be
+writing a script for actions to take after an user has asked to rent a
+specific car, to allow you using them, the developer might give you 
+variables like ``car``, ``appointment``, or ``client`` so you can access 
+a bigger context, when they do, you don't need to do anything special, you
+can use them directly, like this:
+
+````rust
+println("Sending email to the client with rent details");
+client.send_email("You have rented a car for the date "+appointment.date.to_string);
+````
+
+For more information about the Input Variables used by your program, contact
+its developers and their documentation.
+
+
 ## Optimizations
 
-Values and variables known at compile-time might get inlined when possible:
+Values and variables known at compile-time* might get inlined when possible:
 
 <table>
 <thead>
@@ -67,3 +89,5 @@ print(5)
 </td>
 </tr>
 </table>
+
+*This includes some of the Input Variables

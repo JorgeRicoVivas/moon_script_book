@@ -11,4 +11,12 @@
   - [If blocks](./users_guide/if_blocks.md)
   - [While blocks](./users_guide/while_blocks.md)
 - [Developers guide]()
-  - [Engine](./developers_guide/engine.md)
+  - [Engine](./developers_guide/engine/engine.md)
+    - [Adding constants](./developers_guide/engine/add_constants.md)
+    - [Adding functions](./developers_guide/engine/add_functions.md)
+    - [Creating custom types](./developers_guide/engine/add_custom_type.md)
+  - [Specific scripting contexts](./developers_guide/context/context.md)
+    - [Input variables](./developers_guide/context/input_variables.md)
+    - [Better error formatting](./developers_guide/context/better_error_formatting.md)
+  - [ASTs](./developers_guide/ast/ast.md)
+

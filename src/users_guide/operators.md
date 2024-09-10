@@ -24,8 +24,8 @@
 | ``&&``   | AND Logic gate                                              | ``true && false`` = ``false``  |
 | ``\|\|`` | OR Logic gate                                               | ``true \|\| false`` = ``true`` |
 | ``^``    | XOR Logic gate                                              | ``true ^ true`` = ``false``    |
-| ``<<``   | Shift n times to the left                                   | ``1<<1`` = ``5``               |
-| ``>>``   | Shift n times to the right                                  | ``5>>1`` = ``1``               |
+| ``<<``   | Shift n times to the left                                   | ``1<<2`` = ``5``               |
+| ``>>``   | Shift n times to the right                                  | ``5>>2`` = ``1``               |
 | ``==``   | Compares if two values are equal                            | ``5==5.0`` = ``true``          |
 | ``!=``   | Compares if two values are different                        | ``5!=5`` = ``false``           |
 | ``>=``   | Compares if first value is greater or equal than the second | ``5>=6`` = ``false``           |

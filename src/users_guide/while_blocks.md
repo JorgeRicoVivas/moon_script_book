@@ -10,7 +10,8 @@ while condition {
 ````
 
 Note that ``break`` is <span style="color:red">**NOT**</span> currently
-supported.
+supported nor planned, although ``return`` <span style="color:green">**IS**
+</span> supported.
 
 ## Optimizations
 

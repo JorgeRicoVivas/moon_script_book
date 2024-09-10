@@ -12,7 +12,7 @@ return 5 //Returns 5
 
 <br>
 
-If the last statement yields a value, it also returns it like in Rust:
+... Or, if the last statement yields a value, it also returns it like in Rust:
 
 ```rust
 let a = 5
